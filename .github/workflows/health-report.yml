@@ -3,8 +3,8 @@ name: '@zju-health-report/action Demo'
 on:
   workflow_dispatch:
   schedule:
-    # `0 14 * * *` 表示UTC 23:00，即北京时间7:00打卡（经测试，实际运行时间比设定时间晚几分钟到几十分钟）。
-    - cron: '0 14 * * *'
+    # `0 4 * * *` 表示UTC 4:00，即北京时间12:00打卡（经测试，实际运行时间比设定时间晚几分钟到几十分钟）。
+    - cron: '0 4 * * *'
 
 jobs:
   main:
